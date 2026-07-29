@@ -1,1 +1,18 @@
-Upload de bestanden met behoud van de mappenstructuur. Alle CTA's verwijzen naar Microsoft Forms. Laat lidmaatschapsvoorwaarden, succesfee, privacy en toestemming voor openbare Wall of Fame-vermelding juridisch controleren.
+MATCHCOLLECTIEF WEBSITE V2
+
+Upload deze bestanden naar de hoofdmap van de GitHub-repository:
+- index.html
+- voor-recruiters.html
+- voor-werkgevers.html
+- formats.html
+- wall-of-fame.html
+- privacy.html
+- map assets
+
+Laat bestaande GitHub-bestanden zoals CNAME en .nojekyll staan.
+
+Belangrijk:
+- De knop Algemene voorwaarden verwijst naar www.remorec.com.
+- Het privacy statement is als aparte pagina opgenomen.
+- Het maximum van 30 wordt alleen genoemd voor Founding Members.
+- Regulier lidmaatschap blijft daarna mogelijk.
