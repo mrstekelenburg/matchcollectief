@@ -14,6 +14,6 @@ Laat bestaande GitHub-bestanden zoals CNAME en .nojekyll staan.
 Belangrijk:
 - De knop Algemene voorwaarden verwijst naar www.remorec.com.
 - Het privacy statement is als aparte pagina opgenomen.
-- De 30 Founding Members zijn compleet.
-- Nieuwe deelnemers melden zich aan als Member.
+- MatchCollectief richt zich nu op aansluiten als Member.
+- De 30 Founding Members worden alleen nog gebruikt als vertrouwensbasis.
 - Jaarbetaling van € 100 excl. btw is opgenomen als optie met € 20 voordeel.
