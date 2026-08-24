@@ -1,4 +1,4 @@
-MATCHCOLLECTIEF WEBSITE V2
+MATCHCOLLECTIEF WEBSITE V4
 
 Upload deze bestanden naar de hoofdmap van de GitHub-repository:
 - index.html
@@ -14,5 +14,6 @@ Laat bestaande GitHub-bestanden zoals CNAME en .nojekyll staan.
 Belangrijk:
 - De knop Algemene voorwaarden verwijst naar www.remorec.com.
 - Het privacy statement is als aparte pagina opgenomen.
-- Het maximum van 30 wordt alleen genoemd voor Founding Members.
-- Regulier lidmaatschap blijft daarna mogelijk.
+- De 30 Founding Members zijn compleet.
+- Nieuwe deelnemers melden zich aan als Member.
+- Jaarbetaling van € 100 excl. btw is opgenomen als optie met € 20 voordeel.
