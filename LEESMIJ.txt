@@ -1,15 +1,17 @@
-MATCHCOLLECTIEF WEBSITE V3 – 31 augustus 2026
+MATCHCOLLECTIEF WEBSITE V7 – 31 augustus 2026
 
 Upload naar de hoofdmap van de GitHub-repository en vervang gelijknamige bestanden.
 Laat CNAME en .nojekyll staan.
 
 Nieuw/aangepast:
 - index.html: nieuwe conversie-opbouw en aanmeldproces
+- index.html: concreet fee-rekenvoorbeeld en netwerkvisual toegevoegd
 - regels-en-formats.html: versie augustus 2026
 - formats.html: redirect naar regels-en-formats.html
 - wall-of-fame.html: 30 Founding Members
 - voor-recruiters.html / voor-werkgevers.html: 30 Founding Members + reguliere inschrijving
 - assets/style.css: nieuwe homepage-componenten
+- assets/matchcollectief-werking.webp: geoptimaliseerde visual van kandidaat- en vacaturestromen
 - assets/MatchCollectief-Regels-Formats-VS5-augustus-2026.pdf: officiële bronversie
 
 Cijfers op homepage:
