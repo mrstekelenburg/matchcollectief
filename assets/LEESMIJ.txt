@@ -1,0 +1,19 @@
+MATCHCOLLECTIEF WEBSITE V3 – 31 augustus 2026
+
+Upload naar de hoofdmap van de GitHub-repository en vervang gelijknamige bestanden.
+Laat CNAME en .nojekyll staan.
+
+Nieuw/aangepast:
+- index.html: nieuwe conversie-opbouw en aanmeldproces
+- regels-en-formats.html: versie augustus 2026
+- formats.html: redirect naar regels-en-formats.html
+- wall-of-fame.html: 30 Founding Members
+- voor-recruiters.html / voor-werkgevers.html: 30 Founding Members + reguliere inschrijving
+- assets/style.css: nieuwe homepage-componenten
+- assets/MatchCollectief-Regels-Formats-VS5-augustus-2026.pdf: officiële bronversie
+
+Cijfers op homepage:
+Onder het blok '30 recruitment professionals en werkgevers hebben zich al aangesloten' staat in de HTML een onderhoudscommentaar. Voeg pas metrics toe als Dick controleerbare/substantiële cijfers aanlevert voor vacatures, kandidaat-profielen en samenwerkingen/plaatsingen.
+
+Resultatenblok:
+Bewust nog NIET gepubliceerd. Bij elke toekomstige update opnieuw vragen of er inmiddels controleerbare cases en een ledenervaring beschikbaar zijn.
