@@ -1,19 +1,19 @@
-MATCHCOLLECTIEF WEBSITE V4
+MATCHCOLLECTIEF WEBSITE V3 – 31 augustus 2026
 
-Upload deze bestanden naar de hoofdmap van de GitHub-repository:
-- index.html
-- voor-recruiters.html
-- voor-werkgevers.html
-- formats.html
-- wall-of-fame.html
-- privacy.html
-- map assets
+Upload naar de hoofdmap van de GitHub-repository en vervang gelijknamige bestanden.
+Laat CNAME en .nojekyll staan.
 
-Laat bestaande GitHub-bestanden zoals CNAME en .nojekyll staan.
+Nieuw/aangepast:
+- index.html: nieuwe conversie-opbouw en aanmeldproces
+- regels-en-formats.html: versie augustus 2026
+- formats.html: redirect naar regels-en-formats.html
+- wall-of-fame.html: 30 Founding Members
+- voor-recruiters.html / voor-werkgevers.html: 30 Founding Members + reguliere inschrijving
+- assets/style.css: nieuwe homepage-componenten
+- assets/MatchCollectief-Regels-Formats-VS5-augustus-2026.pdf: officiële bronversie
 
-Belangrijk:
-- De knop Algemene voorwaarden verwijst naar www.remorec.com.
-- Het privacy statement is als aparte pagina opgenomen.
-- MatchCollectief richt zich nu op aansluiten als Member.
-- De 30 Founding Members worden alleen nog gebruikt als vertrouwensbasis.
-- Jaarbetaling van € 100 excl. btw is opgenomen als optie met € 20 voordeel.
+Cijfers op homepage:
+Onder het blok '30 recruitment professionals en werkgevers hebben zich al aangesloten' staat in de HTML een onderhoudscommentaar. Voeg pas metrics toe als Dick controleerbare/substantiële cijfers aanlevert voor vacatures, kandidaat-profielen en samenwerkingen/plaatsingen.
+
+Resultatenblok:
+Bewust nog NIET gepubliceerd. Bij elke toekomstige update opnieuw vragen of er inmiddels controleerbare cases en een ledenervaring beschikbaar zijn.
