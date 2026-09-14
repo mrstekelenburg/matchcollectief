@@ -1,9 +1,16 @@
-MATCHCOLLECTIEF WEBSITE V7 – 31 augustus 2026
+MATCHCOLLECTIEF WEBSITE V8 – 14 september 2026
 
 Upload naar de hoofdmap van de GitHub-repository en vervang gelijknamige bestanden.
 Laat CNAME en .nojekyll staan.
 
 Nieuw/aangepast:
+- aanmelden.html: nieuw compact aanmeldformulier, gekoppeld aan Formspree
+- bedankt.html: eigen bevestigingspagina na een geslaagde aanmelding
+- assets/aanmelden.js: conditionele Recruitercode-vraag, voorinvulling betaalkeuze en verzending
+- alle knoppen "Vraag je lidmaatschap aan": verwijzen naar aanmelden.html
+- index.html: maand- en jaarbetaling worden vanuit de tariefkaarten vooringevuld
+- privacy.html: Microsoft Forms vervangen door Formspree als formulierverwerker
+- assets/style.css: vormgeving voor aanmeldformulier en bedankpagina
 - index.html: nieuwe conversie-opbouw en aanmeldproces
 - index.html: concreet fee-rekenvoorbeeld en netwerkvisual toegevoegd
 - regels-en-formats.html: versie augustus 2026
@@ -19,3 +26,10 @@ Onder het blok '30 recruitment professionals en werkgevers hebben zich al aanges
 
 Resultatenblok:
 Bewust nog NIET gepubliceerd. Bij elke toekomstige update opnieuw vragen of er inmiddels controleerbare cases en een ledenervaring beschikbaar zijn.
+
+Rechtstreekse aanmeldlink:
+https://www.matchcollectief.nl/aanmelden.html
+
+Optioneel bron vastleggen in de aanmeldmail:
+https://www.matchcollectief.nl/aanmelden.html?bron=linkedin
+Vervang "linkedin" bijvoorbeeld door "e-mail" of een herkenbare campagnenaam.

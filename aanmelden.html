@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lidmaatschap aanvragen | MatchCollectief</title>
+<meta name="description" content="Vraag je lidmaatschap van MatchCollectief aan. Je aanvraag wordt persoonlijk beoordeeld en je ontvangt binnen twee werkdagen bericht.">
+<link rel="canonical" href="https://www.matchcollectief.nl/aanmelden.html">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="assets/matchcollectief-logo.webp">
+<meta name="theme-color" content="#C5D0E0">
+</head>
+<body class="form-page">
+
+<div class="topbar"><strong>30 Founding Members aangesloten.</strong> Regulier lid worden blijft mogelijk.</div>
+<nav>
+  <div class="wrap nav-inner">
+    <a class="brand" href="index.html"><img src="assets/matchcollectief-logo.webp" alt="Logo MatchCollectief"><span>MatchCollectief</span></a>
+    <button class="menu-toggle" aria-label="Menu openen">☰</button>
+    <div class="nav-links">
+      <a href="voor-recruiters.html">Voor recruiters</a>
+      <a href="voor-werkgevers.html">Voor werkgevers</a>
+      <a href="regels-en-formats.html">Regels en Formats</a>
+      <a href="wall-of-fame.html">Wall of Fame</a>
+      <a href="index.html#tarieven">Tarieven</a>
+      <a class="btn btn-green" href="aanmelden.html" aria-current="page">Vraag je lidmaatschap aan</a>
+    </div>
+  </div>
+</nav>
+
+<header class="form-hero">
+  <div class="wrap form-hero-inner">
+    <span class="eyebrow">LIDMAATSCHAP AANVRAGEN</span>
+    <h1>Sluit je aan bij MatchCollectief</h1>
+    <p>Vul hieronder de belangrijkste gegevens in. Ik beoordeel iedere aanmelding persoonlijk en neem binnen twee werkdagen contact met je op. Je betaalt pas na toelating.</p>
+  </div>
+</header>
+
+<main class="form-main">
+  <div class="wrap form-layout">
+    <form id="aanmeldformulier" class="application-form" action="https://formspree.io/f/xzeblnnr" method="POST">
+      <input type="hidden" name="_subject" value="Nieuwe aanmelding MatchCollectief">
+      <input type="hidden" id="bron" name="bron" value="Rechtstreekse aanmelding">
+
+      <section class="form-section" aria-labelledby="rol-titel">
+        <div class="form-section-heading">
+          <span class="form-step">1</span>
+          <div><h2 id="rol-titel">Ik meld me aan als</h2><p>Kies de omschrijving die het beste past.</p></div>
+        </div>
+        <div class="choice-grid choice-grid-wide">
+          <label class="choice-card"><input type="radio" name="type_aanmelder" value="Recruiter" required><span>Recruiter</span></label>
+          <label class="choice-card"><input type="radio" name="type_aanmelder" value="Recruitmentspecialist" required><span>Recruitmentspecialist</span></label>
+          <label class="choice-card"><input type="radio" name="type_aanmelder" value="Recruitmentbureau" required><span>Recruitmentbureau</span></label>
+          <label class="choice-card"><input type="radio" name="type_aanmelder" value="Werkgever" required><span>Werkgever</span></label>
+          <label class="choice-card"><input type="radio" name="type_aanmelder" value="Interne recruiter" required><span>Interne recruiter</span></label>
+        </div>
+
+        <div id="recruitercode-vraag" class="conditional-field" hidden>
+          <fieldset>
+            <legend>Ben je persoonlijk geregistreerd bij de Recruitercode?</legend>
+            <div class="inline-choices">
+              <label><input type="radio" name="recruitercode_geregistreerd" value="Ja"> Ja</label>
+              <label><input type="radio" name="recruitercode_geregistreerd" value="Nee"> Nee</label>
+              <label><input type="radio" name="recruitercode_geregistreerd" value="Aanvraag loopt"> Mijn registratieaanvraag loopt</label>
+            </div>
+          </fieldset>
+        </div>
+      </section>
+
+      <section class="form-section" aria-labelledby="gegevens-titel">
+        <div class="form-section-heading">
+          <span class="form-step">2</span>
+          <div><h2 id="gegevens-titel">Jouw gegevens</h2><p>De gegevens die nodig zijn om je aanvraag te beoordelen.</p></div>
+        </div>
+        <div class="form-grid">
+          <div class="form-field form-field-full">
+            <label for="naam">Voor- en achternaam <span aria-hidden="true">*</span></label>
+            <input id="naam" name="naam" type="text" autocomplete="name" required>
+          </div>
+          <div class="form-field form-field-full">
+            <label for="organisatie">Organisatienaam <span aria-hidden="true">*</span></label>
+            <input id="organisatie" name="organisatie" type="text" autocomplete="organization" required>
+          </div>
+          <div class="form-field">
+            <label for="email">Zakelijk e-mailadres <span aria-hidden="true">*</span></label>
+            <input id="email" name="email" type="email" inputmode="email" autocomplete="email" required>
+          </div>
+          <div class="form-field">
+            <label for="telefoon">Telefoonnummer <span class="optional">optioneel</span></label>
+            <input id="telefoon" name="telefoon" type="tel" inputmode="tel" autocomplete="tel">
+          </div>
+          <div class="form-field form-field-full">
+            <label for="linkedin">Link naar je LinkedIn-profiel <span aria-hidden="true">*</span></label>
+            <input id="linkedin" name="linkedin_profiel" type="url" inputmode="url" autocomplete="url" placeholder="https://www.linkedin.com/in/..." required>
+          </div>
+        </div>
+      </section>
+
+      <section class="form-section" aria-labelledby="delen-titel">
+        <div class="form-section-heading">
+          <span class="form-step">3</span>
+          <div><h2 id="delen-titel">Wat wil je vooral via MatchCollectief delen?</h2></div>
+        </div>
+        <div class="choice-grid">
+          <label class="choice-card"><input type="radio" name="vooral_delen" value="Vacatures" required><span>Vacatures</span></label>
+          <label class="choice-card"><input type="radio" name="vooral_delen" value="Kandidaat-profielen" required><span>Kandidaat-profielen</span></label>
+          <label class="choice-card"><input type="radio" name="vooral_delen" value="Beide" required><span>Beide</span></label>
+        </div>
+        <div class="form-field form-field-full form-field-spaced">
+          <label for="toelichting">Korte toelichting <span class="optional">optioneel</span></label>
+          <textarea id="toelichting" name="toelichting" rows="4" maxlength="1000" placeholder="Wat verwacht je van MatchCollectief of wat wil je bijdragen?"></textarea>
+        </div>
+      </section>
+
+      <section class="form-section" aria-labelledby="betaling-titel">
+        <div class="form-section-heading">
+          <span class="form-step">4</span>
+          <div><h2 id="betaling-titel">Welke betalingsperiode kies je?</h2><p>Deze keuze wordt bij je aanvraag vastgelegd. Je betaalt pas na toelating.</p></div>
+        </div>
+        <div class="payment-grid">
+          <label class="payment-card">
+            <input type="radio" name="betalingsperiode" value="Maandbetaling – €10 per maand excl. btw" required>
+            <span><strong>Maandbetaling</strong><small>€ 10 per maand excl. btw</small><em>Maandelijks opzegbaar</em></span>
+          </label>
+          <label class="payment-card">
+            <input type="radio" name="betalingsperiode" value="Jaarbetaling – €100 per jaar excl. btw" required>
+            <span><strong>Jaarbetaling</strong><small>€ 100 per jaar excl. btw</small><em>€ 20 voordeel per jaar</em></span>
+          </label>
+        </div>
+      </section>
+
+      <div class="form-submit-area">
+        <button id="verzendknop" class="btn btn-primary-site" type="submit">Aanmelding versturen</button>
+        <p class="privacy-note">Je gegevens worden gebruikt om je aanvraag te beoordelen en hierover contact met je op te nemen. Lees het <a href="privacy.html">privacy statement</a>.</p>
+        <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+      </div>
+    </form>
+
+    <aside class="form-aside">
+      <div class="form-aside-card">
+        <h2>Wat gebeurt er daarna?</h2>
+        <ol>
+          <li>Ik beoordeel je aanvraag persoonlijk.</li>
+          <li>Je ontvangt binnen twee werkdagen bericht.</li>
+          <li>Na toelating rond je de betaling en toegang tot de groep af.</li>
+        </ol>
+        <p><strong>Vragen?</strong><br><a href="mailto:info@remorec.com">info@remorec.com</a><br><a href="tel:+31653481580">06 53 48 15 80</a></p>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" style="color:#fff" href="index.html"><img src="assets/matchcollectief-logo.webp" alt=""><span>MatchCollectief</span></a>
+        <p>Besloten samenwerkingsnetwerk voor recruiters en werkgevers. Een initiatief van Remorec.</p>
+      </div>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy statement</a>
+        <a href="https://www.remorec.com/" target="_blank" rel="noopener">Algemene voorwaarden Remorec</a>
+        <a href="regels-en-formats.html">Regels en Formats</a>
+        <a href="mailto:info@remorec.com">Contact</a>
+      </div>
+    </div>
+    <div class="copyright">© MatchCollectief 2026 · Remorec / LEF V.O.F. · KvK 64836991 · info@remorec.com · 06 53 48 15 80</div>
+  </div>
+</footer>
+<script src="assets/site.js"></script>
+<script src="assets/aanmelden.js"></script>
+</body>
+</html>
